@@ -1,0 +1,1 @@
+# This is a website for Blogs. User can read blogs freely and only admin can add, delete blogs from the admin panel.
