@@ -6,8 +6,8 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <Header/>
-      <Footer/>
+      <Header />
+      <Footer />
     </div>
   );
 };

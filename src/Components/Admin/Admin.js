@@ -1,11 +1,13 @@
-import React from 'react';
+import React from "react";
+import SideNavbar from "../SideNavbar/SideNavbar";
 
 const Admin = () => {
-    return (
-        <div>
-            <h3>This is admin</h3>
-        </div>
-    );
+  return (
+    <div>
+      <SideNavbar />
+      <h3 className="text-white">This is admin</h3>
+    </div>
+  );
 };
 
 export default Admin;

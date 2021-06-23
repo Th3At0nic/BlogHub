@@ -10,16 +10,16 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route path="/home">
-            <Home />
-          </Route>
-          <Route path="/">
+          <Route exact path="/">
             <Home />
           </Route>
           <Route path="/admin">
             <Admin />
           </Route>
-          <Route exact path="*">
+          <Route path="/home">
+            <Home />
+          </Route>
+          <Route path="*">
             <NoMatch />
           </Route>
         </Switch>
